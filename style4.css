@@ -1,0 +1,223 @@
+
+
+.navbar-brand{
+    color: orangered;
+    font-family: "Lobster", sans-serif;
+    pointer-events: none;
+
+}
+
+.nav-item .nav-link{
+    color: white;
+}
+.nav-item .nav-link:hover{
+color: orange;
+}
+
+.navbar {
+    background-color: #343a40; 
+    transition: background-color 0.3s ease; 
+}
+
+.navbar.scrolled {
+    background-color:orangered; 
+}
+
+.navbar.scrolled .nav-link,
+.navbar.scrolled .navbar-brand {
+    color: white; 
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: orangered; 
+}
+.navbar.scrolled .nav-link:hover{
+    color: #343a40;
+
+}
+    .home1{
+    box-shadow: 0 0 2rem orangered,
+    inset 0 0 2rem orangered;
+}
+.text-2{
+    color: orangered;
+}
+
+.responsive-btn2{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color:black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+@media (max-width: 768px) {
+    .responsive-btn2 {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-btn2 {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+.responsive-btn2:hover{
+background-color: orangered;
+}
+.navbar.scrolled .responsive-btn2:hover{
+    background-color: orange;
+
+}
+.responsive-btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color:black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+@media (max-width: 768px) {
+    .responsive-btn1 {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-btn1 {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+
+.responsive-btn1:hover{
+    background-color:orangered;
+
+}
+.content1{
+    color:orangered;
+    align-items: center;
+    font-style: oblique;
+}
+.content1{
+    color: orangered;
+}
+.content{
+    color: orangered;
+}
+.percentage{
+    font-size: 2rem;
+    color: orangered;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card .icon {
+    font-size: 40px; 
+    margin-bottom: 10px;
+    color: orange;
+}
+.card:hover{
+   background-color: orangered;
+   -webkit-box-shadow: -2px -1px 25px -4px orangered;
+-moz-box-shadow: -2px -1px 25px -4px orangered;
+box-shadow: -2px -1px 25px -4px orangered;
+transition: 0.5s;
+}
+.heading{
+    color: white;
+}
+.contact-item {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.contact-item .label {
+    color: white;
+    letter-spacing: 1px;
+}
+
+.contact-item .value {
+    color: white;
+    font-weight: bold;
+    margin-right: 10rem;
+    justify-content: center;
+}
+.form-control {
+    border: 1px solid orangered ; 
+    border-radius: 5px; 
+    color: white;
+    cursor: pointer;
+
+}
+
+
+
+.form-control:hover {
+    outline: none; 
+    border-color: initial; 
+    pointer-events: none;
+    -webkit-box-shadow: -2px -1px 25px -4px orangered;
+-moz-box-shadow: -2px -1px 25px -4px orangered;
+box-shadow: -2px -1px 25px -4px orangered;
+transition: 0.5s;
+
+}
+
+.icon1{
+    color: white;
+    
+}
+.icon1:hover{
+color: orangered;
+transform: translate(0,-10%);
+
+}
+.icon2{
+    color: white;
+    cursor: pointer;
+
+}
+.icon2:hover{
+color: orangered;
+transform: translate(0,-10%);
+
+}
+.icon3{
+    color: white;
+}
+.icon3:hover{
+color: orangered;
+transform: translate(0,-10%);
+
+}
+p{
+    color: white;
+}
+.para{
+    margin-top: 1rem;
+}
+.para1{
+    color: orangered;
+}
+
